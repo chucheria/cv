@@ -46,17 +46,16 @@
 % Fonts %
 %%%%%%%%%
 
-\RequirePackage[quiet]{fontspec}
 \RequirePackage[math-style=TeX,vargreek-shape=unicode]{unicode-math}
 
-\newfontfamily\bodyfont[]{Helvetica Neue}
-\newfontfamily\thinfont[]{Helvetica Neue UltraLight}
-\newfontfamily\headingfont[]{Helvetica Neue Condensed Bold}
+\newfontfamily\bodyfont[]{Lato-Regular.ttf}
+\newfontfamily\thinfont[]{Lato-Light.ttf}
+\newfontfamily\headingfont[]{Lato-Bold.ttf}
 
 \defaultfontfeatures{Mapping=tex-text}
-\setmainfont[Mapping=tex-text, Color=textcolor]{Helvetica Neue Light}
+\setmainfont[Mapping=tex-text, Color=textcolor]{Lato-Light.ttf}
 
-\setmathfont{XITS Math}
+\setmathfont{xits-math.otf}
 
 %%%%%%%%%%
 % Header %
