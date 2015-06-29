@@ -7,6 +7,7 @@
 }
 \ProcessOptions\relax
 \LoadClass{article}
+\linespread{1.05}
 
 \newif\ifenglish
 \englishtrue 

@@ -3,6 +3,8 @@ Adrien Friggeri's CV, typesetted in Lato and using colors inspired by Monokai (t
 
 Uses TikZ for the header, XeLaTeX and Lato font used from Google Fonts, biblatex to print my publications and textpos for the aside.
 
+
+# New
 Added if command to show English or Spanish content. Use:
 
 * In cv.tex
@@ -18,9 +20,13 @@ Added if command to show English or Spanish content. Use:
 * In cv.cls
 
 ```
-\englishtrue % Show English text only
-% \englishfalse will show Spanish text only 
+\englishtrue 
+Show English text only
+\englishfalse 
+Show Spanish text only 
 ```
+
+Added a new line spacing (because of the change of font).
 
 # License
 
