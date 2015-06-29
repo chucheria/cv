@@ -8,6 +8,11 @@
 \ProcessOptions\relax
 \LoadClass{article}
 
+\newif\ifenglish
+\englishtrue 
+%\englishtrue show English text only
+%\englishfalse will show Spanish text only 
+
 
 %%%%%%%%%%
 % Colors %
