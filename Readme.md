@@ -5,6 +5,8 @@ Uses TikZ for the header, XeLaTeX and Lato font used from Google Fonts, biblatex
 
 
 # New
+Added Cover letter with the same design. The letter it's... well... it lacks of spirit, but I want to add Font Awesome Icons to personalice it. Anyway, it has a Lorem Ipsum text because every cover letter should be unique (or so they say ;) ). 
+
 Added if command to show English or Spanish content. Use:
 
 * In cv.tex
