@@ -10,7 +10,7 @@
 \linespread{1.05}
 
 \newif\ifenglish
-\englishtrue 
+\englishtrue
 %\englishtrue show English text only
 %\englishfalse will show Spanish text only 
 
@@ -62,6 +62,7 @@
 \setmainfont[Mapping=tex-text, Color=textcolor]{Lato-Light.ttf}
 
 \setmathfont{xits-math.otf}
+
 
 %%%%%%%%%%
 % Header %
