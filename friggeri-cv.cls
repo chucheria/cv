@@ -10,7 +10,7 @@
 \linespread{1.05}
 
 \newif\ifenglish
-\englishtrue
+\englishfalse
 %\englishtrue show English text only
 %\englishfalse will show Spanish text only 
 
@@ -263,7 +263,9 @@
 
 \DeclareNameFormat{author}{%
   \small\addfontfeature{Color=lightgray}%
-  \ifblank{#3}{}{#3\space}#1%
+  % There's a change in biblatex but I'm not using it fr the moment
+  % It needs to be solved:
+  %\ifblank{#3}{}{#3\space}#1%
   \ifthenelse{\value{listcount}<\value{liststop}}
     {\addcomma\space}
     {}%
