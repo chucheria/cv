@@ -16,4 +16,5 @@
 *.synctex.gz(busy)
 *.auxlock
 *.pdf
+*.fls
 cv-blx.bib
