@@ -10,9 +10,9 @@
 \linespread{1.05}
 
 \newif\ifenglish
-\englishfalse
+\englishtrue
 %\englishtrue show English text only
-%\englishfalse will show Spanish text only 
+%\englishfalse will show Spanish text only
 
 
 %%%%%%%%%%
